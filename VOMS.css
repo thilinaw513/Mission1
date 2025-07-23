@@ -122,6 +122,7 @@ main{
     justify-content: center;
     flex-basis: 70%;
     background-color: pink;
+    opacity: 80%;
     padding: 20px;
 }
 
@@ -144,19 +145,11 @@ main{
 }
 
 
-/* FOOTER */
-.footer{
-    padding:20px;
-    text-align: center;
-    background-color:pink;
-    color:white;
-
-}
-
 /* DROPDOWN MENU */
 
-a:hover, .dropdown2:hover .nav-link {
-  background-color: red;
+a:hover, .dropdown2:hover{
+  background-color: none;
+  transition: width 1s, height 2s;
 
   
 }
@@ -195,4 +188,12 @@ a:hover, .dropdown2:hover .nav-link {
 .dropdown2:hover .dropdown2-content {
   display: block;
 
+}
+
+/* FOOTER */
+.footer{
+    padding:20px;
+    text-align: center;
+    background-color:pink;
+    color:white;
 }
