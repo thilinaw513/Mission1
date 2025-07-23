@@ -61,6 +61,20 @@ nav > ul {
     
 }
 
+.Animation {
+  width: 100px;
+  height: 100px;
+  background: none;
+  position: relative;
+  animation: mymove 10s infinite;
+}
+
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 2000px;}
+
+}
+
 /* MAIN SECTION */
 main{
     display: flex;
@@ -113,6 +127,11 @@ main{
     background-color: #ce1313;
     color: white;
     cursor: pointer;
+}
+
+.chat-btn:hover a {
+    color: inherit;
+    text-decoration: none;
 }
 
 /* RIGHT SECTION */
